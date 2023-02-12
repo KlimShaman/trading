@@ -1,6 +1,6 @@
 from datetime import datetime
 from AlorPy import AlorPy  # Работа с Alor OpenAPI V2
-from AlorPy.Config import Config  # Файл конфигурации
+from Config import Config  # Файл конфигурации
 
 
 def PrintNewBar(response):
