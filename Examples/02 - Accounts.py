@@ -1,5 +1,5 @@
 from AlorPy import AlorPy  # Работа с Alor OpenAPI V2
-from AlorPy.Config import Config  # Файл конфигурации
+from Config import Config  # Файл конфигурации
 
 
 if __name__ == '__main__':  # Точка входа при запуске этого скрипта
@@ -8,6 +8,7 @@ if __name__ == '__main__':  # Точка входа при запуске это
     print('Кол-во тикеров на бирже:')
     for exchange in apProvider.exchanges:  # Пробегаемся по всем биржам
         securities = apProvider.GetSecuritiesExchange(exchange)  # Получаем все тикеры на бирже
+        print(securities[0])
         print(f'- {exchange} {len(securities)}')
         boards = tuple(set(security['primary_board'] for security in securities))  # Все классы инструментов
         for board in boards:  # Пробегаемся по всем классам

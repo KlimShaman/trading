@@ -14,16 +14,16 @@ class Config:
     # Для реального счета:
     # 1. Привязать торговый аккаунт
     # 2. Выписать токен
-    UserName = 'P000000'
-    RefreshToken = 'ffffffff-ffff-ffff-ffff-ffffffffffff'
+    UserName = 'P082290'
+    RefreshToken = '08eae502-8387-4d52-9d62-0a4640c28927'
 
     # Как заполнять переменные портфелей:
     # 1. Запустить скрипт "Examples/02 - Accounts.py"
     # 2. Получить портфели для всех рынков
     # 3. Заполнить переменные полученными значениями
-    PortfolioStocks = 'D00000'  # Фондовый рынок
-    PortfolioFutures = '0000PST'  # Срочный рынок
-    PortfolioFx = 'G00000'  # Валютный рынок
+    PortfolioStocks = 'D82290'  # Фондовый рынок
+    PortfolioFutures = '750296L'  # Срочный рынок
+    PortfolioFx = 'G48983'  # Валютный рынок
 
     # Для демо счета:
     # 1. Пройти по ссылке "Токены для ведения торгов в тестовом контуре" - "Begin OAuth authorization flow"
